@@ -34,7 +34,6 @@ void main(int argc, char * argv[])
     fclose(fp1);
     fclose(fp2);
 }
-// count the total number of characters in the file that *f points to
 long count_characters(FILE *f) 
 {
     fseek(f, -1L, 2);
